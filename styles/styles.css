@@ -26,4 +26,36 @@ body {
   font-family: "Poppins", sans-serif;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+header {
+  height: 100vh;
+  color: var(--color-white);
+  overflow: hidden;
+}
+
+section {
+  min-height: 100hv;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.section {
+  transform: translateY(-100%) scale(0);
+  transition: all 0.4s ease-in-out;
+  background-color: var(--color-primary);
+}
+
+.sec1 {
+  display: none;
+  transform: translateY(0) scale(1);
 }/*# sourceMappingURL=styles.css.map */
